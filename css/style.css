@@ -35,7 +35,10 @@ ul {
     margin: 1rem;
 }
 
-h1 {font-size: 56px;}
+h1 {
+    font-size: 56px;
+    font-family: 'Clicker Script', cursive;
+}
 h2 {font-size: 36px;}
 h3 {font-size: 28px;}
 h4 {font-size: 24px;}
@@ -49,9 +52,43 @@ h4 {
 
 .about-img {
 
-    margin-left: -100px;
-    right: -100px;
+   max-width: 40%;
+   flex: 0 0 40%;
+    position: relative;
+    text-align: center;
 }
+
+.img-fluid {
+
+    margin: auto;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.about-img::after {
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid #a29bfe;
+    border-right: 10px solid #a29bfe;
+    right: 20px;
+    bottom: -40px;
+}
+
+.about-img::before {
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid #a29bfe;
+    border-left: 10px solid #a29bfe;
+    left: 20px;
+    top: -40px;
+}
+
+
+
 
 .hero {
 
@@ -230,3 +267,6 @@ a:hover {
 
 
 /*********************************End Portfolio Section*****************************/
+
+
+

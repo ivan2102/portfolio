@@ -212,6 +212,7 @@ a:hover {
     grid-row-gap: 20px;
     justify-content: center;
     padding-bottom: 50px;
+    max-width: 100%;
     
 }
 
@@ -221,9 +222,7 @@ a:hover {
     -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
     box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-    display: flex;
-    gap: 0.5rem;
-    max-width: 100%;
+   
 
 } 
 

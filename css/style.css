@@ -207,11 +207,11 @@ a:hover {
 .post-wrapper {
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, 350px);
+    grid-template-columns: repeat(auto-fit, 450px);
     grid-column-gap: 30px;
     grid-row-gap: 20px;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     max-width: 100%;
     
 }

@@ -206,8 +206,12 @@ a:hover {
 
 .post-wrapper {
 
-    display: flex;
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
     max-width: 100%;
     
 }
@@ -218,9 +222,7 @@ a:hover {
     -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
     box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-    flex: 1;
    
-
 } 
 
 .s1 {
